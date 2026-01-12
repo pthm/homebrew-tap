@@ -3,7 +3,7 @@ cask "cclint" do
   name "cclint"
   desc "A linter for Claude Code configurations"
   homepage "https://github.com/pthm/cclint"
-  version "0.1.0"
+  version "0.1.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "cclint" do
   on_macos do
     on_intel do
       url "https://github.com/pthm/cclint/releases/download/v#{version}/cclint_#{version}_darwin_amd64.tar.gz"
-      sha256 "eb43cacb1c1e4dc2f0e5a4dd0ded02962e1494a8f728ea4ce0f1383360051ca9"
+      sha256 "5aa95c255f3e3c10fd4c01caff36f7c6d1e3daf9c1c23c52543e8283a2e42c09"
     end
     on_arm do
       url "https://github.com/pthm/cclint/releases/download/v#{version}/cclint_#{version}_darwin_arm64.tar.gz"
-      sha256 "2bf40c0f7498ca393d12032fc345b6ba710e1058fc283eed9225b4dcec63cba4"
+      sha256 "729e0209c055cea998d632650b0608ef55ca2c530f1f483fe50a5e280c515cc4"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/pthm/cclint/releases/download/v#{version}/cclint_#{version}_linux_amd64.tar.gz"
-      sha256 "4e2753d5ae5321834271df66caa565e05fc9f3fcfe9eaea6b788cbb25fc77bcf"
+      sha256 "9eb2a1131371f3c6eca3337e96f3c561de905dbad8b48284e152022aa7217fa9"
     end
     on_arm do
       url "https://github.com/pthm/cclint/releases/download/v#{version}/cclint_#{version}_linux_arm64.tar.gz"
-      sha256 "9fbb012ed8ce988110e0b25cca85158640b9c715234116efb74b6d4793841721"
+      sha256 "35df1002fc00a48f8047fbdb7f8f340bff340ad9d683ae544ab970f590d501a0"
     end
   end
 
