@@ -3,7 +3,7 @@ cask "melange" do
   name "melange"
   desc "PostgreSQL Fine-Grained Authorization - OpenFGA to SQL compiler"
   homepage "https://github.com/pthm/melange"
-  version "0.5.1"
+  version "0.6.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "melange" do
   on_macos do
     on_intel do
       url "https://github.com/pthm/melange/releases/download/v#{version}/melange_#{version}_darwin_amd64.tar.gz"
-      sha256 "441a0f5d6e8025bd90f4d4e5e26fc199692cd65c7457c0979003c18d0e79b228"
+      sha256 "f62815cdc01654d3691711f251ecf5e783e1a497ff4a6a7e2c15cc8f84b1c5cc"
     end
     on_arm do
       url "https://github.com/pthm/melange/releases/download/v#{version}/melange_#{version}_darwin_arm64.tar.gz"
-      sha256 "b3355b6299025964d7d8d704e758506f39338e4d47fbad54a9ba32ec7b7a3cbd"
+      sha256 "76836bce65e7b63742331b552d7497810137010059a4eb6bcfbd46ca71b4aeba"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/pthm/melange/releases/download/v#{version}/melange_#{version}_linux_amd64.tar.gz"
-      sha256 "28c58516bf78efac0659f9c3b1b860d62abf245d4e26aa35fd5f628f06037ddd"
+      sha256 "0d04694641698d06ac02ddee580c5ad04e44382d5538290f3a0b31a5b129ed4b"
     end
     on_arm do
       url "https://github.com/pthm/melange/releases/download/v#{version}/melange_#{version}_linux_arm64.tar.gz"
-      sha256 "28ecfe46499c5580feb424fde70ea7988730ca49bf7826360792d052301e11c8"
+      sha256 "dc0e66cb9539e89534ffe889cf584d743913087045f421e199915ab1810120cc"
     end
   end
 
