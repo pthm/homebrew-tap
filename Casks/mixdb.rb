@@ -1,8 +1,8 @@
 cask "mixdb" do
-  version "1.0.1"
-  sha256 "7db9c1ca2e2c3cad57448f16b8abb2a2baf94af4bf38ccba7f9aaef7d6bc5692"
+  version "1.0.2"
+  sha256 "c2fcf89051af57fcf41f4aed5fa67386fb8996cbe4b37a64ba6b4c841cf2835a"
 
-  url "https://github.com/pthm/mixdb/releases/download/v1.0.1/MixDB-1.0.1-macos.dmg"
+  url "https://github.com/pthm/mixdb/releases/download/v1.0.2/MixDB-1.0.2-macos.dmg"
   name "MixDB"
   desc "Music mix cataloguing and playback app"
   homepage "https://github.com/pthm/mixdb"
