@@ -4,22 +4,22 @@ cask "melange" do
 
   on_macos do
     on_intel do
-      sha256 "d9fea232e7fa421b2eda668d8dca80d7ce1e0086bb908f69f58c8f7b8fa85f8c"
+      sha256 "f9be225eeaafbca08f60d54a81a9b3fe4fd3676f7c5f2beca9665bc5c3cb2671"
       url "https://github.com/pthm/melange/releases/download/v#{version}/melange_#{version}_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "b8e3c21adaae4b4976372b7b8a5a00ef940840431827a0351a94fe01ca5eb258"
+      sha256 "5aabbdb737597fa54910c18c86ad57ac32d240778334bbc9a8f8eee7a28497d7"
       url "https://github.com/pthm/melange/releases/download/v#{version}/melange_#{version}_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "4ccef61e14a05764d2f6fae4432ba95a3e5c924b86c12528ee541618226f240f"
+      sha256 "534cf5358c59ed4dc2784b2189e71f137785d2939f5fb4262b96866d3702bb49"
       url "https://github.com/pthm/melange/releases/download/v#{version}/melange_#{version}_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "31116db64bce58019e543926f2209f200fbfe2d53898699a3deaf5e541381f12"
+      sha256 "2cde9f63f20188e456a26ac4b0c340d7a514e40826b70ef8b379c017b0673d90"
       url "https://github.com/pthm/melange/releases/download/v#{version}/melange_#{version}_linux_arm64.tar.gz"
     end
   end
